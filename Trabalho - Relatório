@@ -1,0 +1,14 @@
+Tòpicos Especiais em Econometria - ECO 02018
+
+Professor Nelson Seixas dos Santos
+
+GRUPO 13: Bernardo Hillesheim Paulsen e Fábio Ferreira Corralo
+
+TRABALHO DE RECUPERAÇÃO
+
+	A presente pesquisa pretendeu verificar a correlação entre as variáveis (1) PIB a preços de mercado e (2) valor das exportações. O período escolhido da pesquisa é de 1 ano, de 1.º de janeiro de 1996 a 1.º de janeiro de 1997, conforme tabela.
+	Num primeiro momento, verificamos visualmente as séries separadas por meio de gráficos os quais mostram os valores (PIB e exportações) (variáveis dependentes) na ordenada, em relação à variável independente (tempo), na abcissa. Pudemos, assim, de imediato, verificar visualmente que há algum grau de relação entre as grandezas estudadas, restando para a comprovação do fato a realização dos testes econométricos devidos.
+	Na continuidade, calculou-se as médias e desvios padrões das séries (média do PIB= 138.667528 e desvio padrão do PIB = 2.731518; média das Exportações = 214.427865 e desvio padrão das Exportações = 7.114966), a fim de aplicar o teste ADF (Augmented Dickey-Fuller), que é um teste de raiz unitária aplicado a séries temporais, no intuito de constatar se as séries são ou não estacionárias (ou seja, se apresentam tendência). Isso posto, dado o resultado do ADF de -1.102723 e  do p-valor de 0.713985 para o PIB e ADF de -0.875695 e p-valor de 0.795871, pudemos asseverar que as séries são estacionárias, ou seja, variam ao redor de um determinado valor.
+	A seguir, usando o pacote  StatsModels, realizamos a regressão linear entre as variáveis (PIB e exportações), de maneira a aplicar a análise econométrica do modelo de regressão linear clássico.
+	Como resultado da análise, verificamos que o valor do teste de Durbin-Watson, que mede a correlação serial entre os resíduos, demonstrou não ser conclusivo.
+	Já, em relação ao teste R2, o valor de 0.979 nos leva a considerar que a comparação entre as séries tem sentido econômico à medida que indica uma correlação forte e positiva entre as séries temporais em pauta.
